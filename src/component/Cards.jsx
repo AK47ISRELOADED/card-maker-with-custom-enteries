@@ -7,7 +7,6 @@ const Cards = ({ users, removeHandler }) => {
       {users.map((item, index) => {
         return (
           <Card
-        
             key={index}
             id={index}
             removeHandler={removeHandler}
